@@ -1,0 +1,148 @@
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  display: inline-block;
+}
+
+#first {
+  background-color: black;
+}
+
+#first .col-lg-2 a {
+  color: #ffffff;
+}
+
+#first .col-lg-10 a {
+  color: #ffffff;
+  margin-left: 18px;
+}
+
+#second {
+  background-color: #3f3f3f;
+}
+
+#second .text {
+  padding: 100px 200px;
+}
+
+#second .text h2 {
+  color: #ffffff;
+  font-size: 47px;
+}
+
+#second .text h3 {
+  color: #FFFFFF80;
+  font-size: 20px;
+}
+
+#second .scr {
+  padding: 8px 24px;
+  background-color: blue;
+  color: #ffffff;
+  border: 2px solid blue;
+  border-radius: 5px;
+}
+
+#second .scr:hover {
+  background-color: darkblue;
+  border: 2px solid darkblue;
+}
+
+#second .scl {
+  color: #ffffff;
+  border: 2px solid #ffffff;
+  border-radius: 5px;
+  padding: 9px 24px;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+  margin: 12px 49px;
+}
+
+#second .scl:hover {
+  background-color: #ffffff;
+  color: black;
+}
+
+#third {
+  margin-top: 45px;
+}
+
+#third .col-lg-8 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+#third .col-lg-8 .box {
+  width: 50%;
+}
+
+#fourth {
+  margin-top: 99px;
+}
+
+#fourth .footer {
+  text-align: center;
+}
+
+#fourth .footer h1 {
+  font-size: 28px;
+  padding: 0 167px;
+  font-style: italic;
+}
+
+#fourth .footer img {
+  border-radius: 100%;
+}
+
+#sixth {
+  margin-top: 56px;
+}
+
+#sixth .begin {
+  text-align: center;
+}
+
+#sixth .row {
+  padding-left: 70px;
+}
+
+#sixth .row .box {
+  width: 30%;
+  border: 1px solid #ffffff;
+  margin: 0 12px;
+  -webkit-box-shadow: 1px 1px 57px 1px #dfd7d7;
+          box-shadow: 1px 1px 57px 1px #dfd7d7;
+}
+
+#sixth .row .box h1 {
+  height: 170px;
+  width: 254px;
+  background-color: grey;
+  text-align: center;
+}
+
+#sixth .row .box img {
+  border-radius: 100%;
+}
+
+#sixth .row .box a {
+  background-color: navy;
+  border-radius: 20px;
+  padding: 3px 6px;
+  color: #ffffff;
+  margin-top: 23px;
+}
+
+#sixth .row .box h4 {
+  margin-top: 23px;
+}
+/*# sourceMappingURL=style.css.map */
